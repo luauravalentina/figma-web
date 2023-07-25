@@ -1,0 +1,80 @@
+/* reseteo del viewport */
+html{
+    height: 100%;
+}
+
+*{
+    
+    box-sizing: border-box;
+    box-sizing: content-box;
+
+}
+/* estilos body  */
+
+body{
+    border-radius: 1.5rem 1.5rem 0rem 0rem;
+background: linear-gradient(234deg, rgba(255, 125, 2, 0.72) 0%, rgba(227, 110, 0, 0.00) 91.41%), #5468E7;
+}
+
+
+
+
+
+/* aqui inicia el header*/
+
+header{
+ 
+
+    display: flex;
+    align-items: center;
+    margin:0 auto;
+    width: 70%;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.img-header{
+    width: 4rem;
+    height: 5.5rem;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+
+.container img{
+    display: flex;
+width: 8rem;
+height: 8.5rem;
+justify-content: center;
+align-items: center;
+gap: 0.5rem;
+flex-shrink: 0;
+background-color: #232340;
+border-radius: 10px;
+
+}
+
+.title-header{
+color: white;
+font-size: 40px;
+font-weight: bold;
+
+}
+
+.btn-header{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 15%;
+    height: 2.5rem;
+    background-color: #5468E7;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.btn-header:hover{
+    background-color: #94b3ff;
+}
